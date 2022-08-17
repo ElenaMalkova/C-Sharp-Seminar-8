@@ -19,9 +19,9 @@ void PrintArray(int[,] inArray)
 int[,] FillArray(int[,] arr)
 {
     int top = 0;
-    int bottom = arr.GetLength(1)-1;
+    int bottom = arr.GetLength(1) - 1;
     int left = 0;
-    int right = arr.GetLength(0)-1;
+    int right = arr.GetLength(0) - 1;
     int count = 0;
     int sum = 0;
     int i = 0;
